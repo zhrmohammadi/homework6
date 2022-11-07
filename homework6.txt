@@ -1,0 +1,15 @@
+using System;
+class test
+{
+
+    public static void Main(string[] args)
+    {
+        int x = Convert.ToInt32(Console.ReadLine());
+        int y = Convert.ToInt32(Console.ReadLine());
+        double abs = Math.Abs(x-y);
+        double pow = Math.Pow(abs , Math.Abs(y));
+        double final = Math.Sqrt(pow);
+       
+        Console.WriteLine(final);
+    }
+}
